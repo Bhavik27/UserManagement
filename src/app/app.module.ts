@@ -10,6 +10,8 @@ import { RouterComponent } from './router/router.component';
 import { HomeComponent } from './home/home.component';
 import { ActivityLogComponent } from './activity-log/activity-log.component';
 import { MaterialModule } from './Shared/Models/material.module';
+import { HttpClientModule } from '@angular/common/http'
+import { ApiService } from './Shared/Services/api.service';
 
 @NgModule({
   declarations: [
@@ -24,9 +26,10 @@ import { MaterialModule } from './Shared/Models/material.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
