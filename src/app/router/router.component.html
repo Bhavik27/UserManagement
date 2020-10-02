@@ -1,10 +1,5 @@
 <div class="container-fluid mt-2">
     <mat-card class=" mx-1">
-
-        <mat-card-header>
-            <mat-card-title>Router</mat-card-title>
-        </mat-card-header>
-        <mat-divider></mat-divider>
         <mat-card-content class="mt-2">
             <table mat-table [dataSource]="_Role" class="mat-elevation-z1">
                 <ng-container matColumnDef="Role">
@@ -29,7 +24,8 @@
             </table>
         </mat-card-content>
         <mat-card-footer>
-
+            <mat-paginator class="mat-elevation-z1" [length]="_Role.length" [pageSizeOptions]="[5,10,15]">
+            </mat-paginator>
         </mat-card-footer>
 
     </mat-card>

@@ -6,3 +6,18 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 table{
     width: 100%;
 }
+
+.priamry-color{
+    background: linear-gradient(90deg,#fc4a1a,#f7b733);
+    color: white !important;
+}
+.mat-header-row{
+    background: linear-gradient(90deg,rgba(252, 74, 26,0.7),rgba(255, 106, 0, 0.7));
+    color: white !important;
+}
+.mat-header-cell{
+    color: white;
+}
+.icon-primary{
+    color: linear-gradient(90deg,#ee0979,#ff6a00);
+}
