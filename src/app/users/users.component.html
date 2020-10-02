@@ -27,6 +27,18 @@
                     <td mat-cell *matCellDef="let element">{{element.Gender}}</td>
                 </ng-container>
 
+                <ng-container matColumnDef="actions">
+                    <th mat-header-cell *matHeaderCellDef>Actions</th>
+                    <td mat-cell *matCellDef="let element">
+                        <button mat-icon-button>
+                            <img src="../../assets/edit.svg" alt="">
+                        </button>
+                        <button mat-icon-button>
+                            <img src="../../assets/delete.svg" alt="">
+                        </button>
+                    </td>
+                </ng-container>
+
                 <tr mat-header-row *matHeaderRowDef="displayColumns"></tr>
                 <tr mat-row *matRowDef="let row; columns: displayColumns"></tr>
             </table>

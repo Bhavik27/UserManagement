@@ -10,7 +10,7 @@ import { ApiService } from '../Shared/Services/api.service';
 export class UsersComponent implements OnInit {
 
   _User: UserModel[];
-  displayColumns: string[] = ['UserName', 'UserFullName', 'DateOfBirth', 'Gender']
+  displayColumns: string[] = ['UserName', 'UserFullName', 'DateOfBirth', 'Gender','actions']
   constructor(private apiServices: ApiService) { }
 
   ngOnInit(): void {
