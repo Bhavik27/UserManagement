@@ -9,3 +9,7 @@ Run `npm init` to install all dependencies from package.json
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 Run `nodemon .\src\Server\Main.js` to start NodeJS server at `http://localhost:3000/`
+
+![HOME SCREEN](https://github.com/Bhavik27/UserManagement/blob/master/src/assets/HomeScreen.PNG=400px)
+
+![USER SCREEN](https://github.com/Bhavik27/UserManagement/blob/master/src/assets/UserScreen.PNG=400px)
