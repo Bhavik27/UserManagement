@@ -10,6 +10,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `nodemon .\src\Server\Main.js` to start NodeJS server at `http://localhost:3000/`
 
-![HOME SCREEN](https://github.com/Bhavik27/UserManagement/blob/master/src/assets/HomeScreen.PNG){ width: 200px; }
+![HOME SCREEN](https://github.com/Bhavik27/UserManagement/blob/master/src/assets/HomeScreen.PNG)
 
-![USER SCREEN](https://github.com/Bhavik27/UserManagement/blob/master/src/assets/UserScreen.PNG){ width: 200px; }
+![USER SCREEN](https://github.com/Bhavik27/UserManagement/blob/master/src/assets/UserScreen.PNG)
