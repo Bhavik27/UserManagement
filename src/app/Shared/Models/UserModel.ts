@@ -1,7 +1,8 @@
-export class UserModel{
+export class UserModel {
     Id: number;
     UserName: string;
     UserFullName: string;
     DateOfBirth: Date;
-    Gender:string;
+    Gender: string;
+    Active: boolean;
 }

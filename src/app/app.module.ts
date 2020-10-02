@@ -12,6 +12,8 @@ import { ActivityLogComponent } from './activity-log/activity-log.component';
 import { MaterialModule } from './Shared/Models/material.module';
 import { HttpClientModule } from '@angular/common/http'
 import { ApiService } from './Shared/Services/api.service';
+import { ChartsModule } from 'ng2-charts';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { ApiService } from './Shared/Services/api.service';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    ChartsModule
   ],
   providers: [ApiService],
   bootstrap: [AppComponent]

@@ -1,0 +1,21 @@
+<div class="container-fluid mt-2">
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-8 text-center title">
+            <mat-card>
+                <mat-card-title>USERS</mat-card-title>
+                <mat-card-content>
+                    <canvas baseChart
+                        [datasets]="barChartData" 
+                        [labels]="barChartLabels" 
+                        [options]="barChartOptions"
+                        [plugins]="barChartPlugins"
+                        [legend]="barChartLegend"
+                        [chartType]="barChartType">
+                    </canvas>
+                </mat-card-content>
+            </mat-card>
+        </div>
+        <div class="col-1"></div>
+    </div>
+</div>

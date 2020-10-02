@@ -19,5 +19,8 @@ table{
     color: white;
 }
 .icon-primary{
-    color: linear-gradient(90deg,#ee0979,#ff6a00);
+    color: #ff6a00;
+}
+.title{
+    color: #ff6a00;
 }
